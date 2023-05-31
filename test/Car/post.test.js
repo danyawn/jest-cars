@@ -14,7 +14,7 @@ beforeAll(async () => {
 	accessTokenAdmin = res1.body.accessToken
 
 	const res2 = await request(app).post("/v1/auth/login").send({
-		email: 'testing@binar.co.id',
+		email: 'hermano@binar.co.id',
 		password: '123456'
 	})
 	accessTokenCustomer = res2.body.accessToken
